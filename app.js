@@ -5,7 +5,7 @@ const button = document.getElementById("btn");
 console.log("Project started successfully");
 
 button.addEventListener("click", function () {
-    message.innerText = "Button clicked by ayush2";
+message.innerText= "Thank you for clicking the button!";   
 });
 
 function showWelcomeMessage() {
